@@ -1,0 +1,24 @@
+.mat-button {
+  background: none !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.mat-toolbar {
+  background: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sideNavBtn .mat-button-wrapper {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  column-gap: 50px !important;
+  vertical-align: middle !important;
+}
+
+.material-icons {
+  line-height: 1.5 !important;
+}

@@ -1,0 +1,26 @@
+<div class="add-task-container">
+  <form class="add-task-container" [formGroup]="options">
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        formControlName="taskName"
+        id="taskName"
+        placeholder="What would you like to do?"
+      />
+    </div>
+
+    <div class="form-group">
+      <!-- <label for="taskDesc">Description:</label> -->
+      <input
+        type="text"
+        class="form-control"
+        formControlName="taskDesc"
+        id="taskDesc"
+        placeholder="Description"
+      />
+    </div>
+
+    <button mat-button class="addTaskBtn">Add Task</button>
+  </form>
+</div>
